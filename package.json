@@ -1,0 +1,28 @@
+{
+  "name": "@fubo/smarttv",
+  "description": "A staging sandbox for smart tv apps",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "webpack-cli serve",
+    "build": "webpack --mode production",
+    "test": "jest",
+    "serve": "serve dist -p 3001",
+    "clean": "rm -rf dist"
+  },
+  "devDependencies": {
+    "@babel/core": "7.17.8",
+    "@babel/preset-react": "7.16.7",
+    "@babel/preset-typescript": "7.16.7",
+    "awesome-typescript-loader": "^5.2.1",
+    "babel-loader": "8.2.4",
+    "html-webpack-plugin": "5.5.0",
+    "serve": "13.0.2",
+    "webpack": "5.70.0",
+    "webpack-cli": "4.9.2",
+    "webpack-dev-server": "4.8.0"
+  },
+  "dependencies": {
+    "@fubo/core": "link:../core",
+    "@fubo/users__components__user-list": "link:../users/src/packages/components/UserList"
+  }
+}
