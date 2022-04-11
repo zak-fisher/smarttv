@@ -14,7 +14,9 @@ const Users = () => (
   <main>
     <h2>SmartTV Users</h2>
     <FederatedModule>
-      <FederatedUserList title="Federated User List"/>
+      <FederatedUserList title="Users" />
+    </FederatedModule>
+    <FederatedModule>
       <UserCounter />
     </FederatedModule>
   </main>

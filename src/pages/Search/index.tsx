@@ -13,6 +13,8 @@ const Search = () => (
     <h2>SmartTV Search</h2>
     <FederatedModule>
       <UserCounter />
+    </FederatedModule>
+    <FederatedModule>
       <STACCounter />
     </FederatedModule>
   </main>
